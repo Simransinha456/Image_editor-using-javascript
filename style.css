@@ -1,10 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap');
-
 * {
     padding: 0;
     margin: 0;
     box-sizing: border-box;
-    font-family: 'Poppins', sans-serif;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
 }
 
 body {
@@ -12,12 +11,11 @@ body {
     align-items: center;
     justify-content: center;
     min-height: 100vh;
-    background: linear-gradient(to right bottom, #ff3366, #ba265d);
-    
+    background: linear-gradient(to right bottom, #a5734c, #346395);   
 }
 
 h2{
-    font-family: 'Pacifico', cursive;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
    padding-left: 250px;
 }
 .container {
@@ -25,12 +23,11 @@ h2{
     background-color: #fff;
     box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
     border-radius: 10px;
-    padding: 30px 35px 35px;
-    
+    padding: 30px 35px 35px; 
 }
 
 .container.disable :where(.editor-pan1,.reset-filter,.save-img){
-    opacity: 0.6;
+    opacity: 0.9;
     pointer-events: none;
 }
 
@@ -50,8 +47,7 @@ h2{
     border-radius: 5px;
     padding: 15px 20px;
     border: 1px solid #ccc;
-    border:1.5px solid #ff3366;
-    
+    border:1.5px solid #0a0a0a;  
 }
 
 .editor-pan1 .title {
@@ -69,9 +65,9 @@ h2{
 .editor-pan1 button {
     height: 40px;
     font-size: 14px;
-    color: #6c7573;
+    color: #0f1010;
     margin-bottom: 8px;
-    border:1.5px solid #ff3366;
+    border:1.5px solid #190b0e;
     border-radius: 3px;
     background: #fff;
 }
@@ -86,9 +82,8 @@ h2{
 }
 
 .filter button.active {
-    background: linear-gradient(to right bottom, #ff3366, #ba265d);
-    border: 1px solid #ba265d;
-
+    background: linear-gradient(to right bottom, #aa1037, #e5bd29);
+    border: 1px solid #121112;
     color: #fff;
 }
 
@@ -99,13 +94,13 @@ h2{
 .filter .slider input {
     width: 100%;
     height: 5px;
-    accent-color: #ff3366;
+    accent-color: #151515;
 }
 
 .filter .slider .filter-info {
     display: flex;
     justify-content: space-between;
-    color: #464646;
+    color: #0f0f0f;
     font-size: 14px;
 }
 
@@ -150,19 +145,18 @@ h2{
 }
 
 .controls .reset-filter {
-    color: #6c7573;
-    border:1.5px solid #ff3366;
+    color: #414343;
+    border:1.5px solid #0d0d0d;
 
 }
 
 .controls .choose-img {
-    background-color: #6c7573;
+    background-color: #696b6a;
     border: 1px solid #6c7573;
 }
 
 .controls .save-img {
-    background: linear-gradient(to right bottom, #ff3366, #ba265d);
-
+    background: linear-gradient(to right bottom, #d45a1d, #8b1c38);
     border: 1px solid #ba265d;
 }
 
@@ -181,8 +175,6 @@ h2{
         margin: 0 0 15px;
     }
 }
-
-
 
 
 

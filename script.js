@@ -78,8 +78,6 @@ updateFilters = () => {
     applyFilter();
 }
 
-
-
 rotateOptions.forEach(option => {
     option.addEventListener("click", () => {
         if (option.id === "left") {
@@ -106,9 +104,6 @@ const resetFilter = () => {
     applyFilter();
 }
 
-
-
-
 const saveImage = () => {
     const canvas = document.createElement("canvas");
     const ctx = canvas.getContext("2d");
@@ -128,10 +123,7 @@ const saveImage = () => {
     link.href = canvas.toDataURL();
     link.click();
     document.querySelector("h2").innerHTML =  "Image SAved;" + " " + "made BY shayan {/} with ❤", 200
-
 }
-
-
 
 fileInput.addEventListener("change", loadImage);
 filterSlider.addEventListener("input", updateFilters);
